@@ -1,0 +1,19 @@
+ul {
+  text-align: left;
+  font-weight: bold;
+  display: inline-block;
+  list-style-type: none;
+}
+
+.check {
+	display: inline-block;
+	margin-right: 10px;
+}
+
+.complete {
+	text-decoration: line-through
+}
+
+.incomplete {
+	
+}

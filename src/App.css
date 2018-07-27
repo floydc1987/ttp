@@ -1,28 +1,110 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+
+html, body, #root, .container {
+  height: 100%;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
 .App {
   text-align: center;
-}
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
-}
-
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
-  color: white;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .App-title {
-  font-size: 1.5em;
+  font-size: 3.5em;
+  text-align: center;
+  font-family: 'Muli', sans-serif;
+  padding-bottom: 50px;
+  padding-top: 30px;
 }
 
-.App-intro {
-  font-size: large;
+button {
+background-color: orange;
+display: inline-block;
+border-radius: 7px;
+font-family: 'Montserrat', sans-serif;
+font-weight: bold;
 }
 
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+button:hover {
+  box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2), 0 4px 15px 0 rgba(0,0,0,0.19);
+}
+
+.things, #inputText {
+  float: center;
+  margin-left: 30px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+}
+
+#root {
+  background: #ffcc80;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  border: 25px solid #ffcc80;
+  border-radius: 15px;
+  box-sizing: border-box;
+  background: #ffffff;
+}
+
+h1 {
+  width: 100%;
+  flex-basis: 100%;
+}
+
+.column {
+  flex: 1;
+  justify-content: center;
+  text-align: center;
+
 }
