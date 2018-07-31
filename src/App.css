@@ -87,7 +87,7 @@ font-family: 'Montserrat', sans-serif;
 font-weight: bold;
 font-size: 15px;
 width: 100px;
-height: 45px;
+height: 43px;
 }
 
 button:hover {
@@ -100,7 +100,7 @@ button:hover {
   font-size: 30px;
 }
 button, input {
-  display: inline-block;
+  vertical-align: bottom;
 }
 .things {
   padding-top: 50px;
