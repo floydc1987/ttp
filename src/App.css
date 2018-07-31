@@ -93,12 +93,16 @@ height: 15px;
 button:hover {
   box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2), 0 4px 15px 0 rgba(0,0,0,0.19);
 }
-
 .things, #inputText {
   float: center;
   margin-left: 30px;
   font-family: 'Montserrat', sans-serif;
   font-weight: bold;
+  font-size: 30px;
+}
+.things {
+  padding-top: 50px;
+  font-size: 35px;
 }
 
 #root {
