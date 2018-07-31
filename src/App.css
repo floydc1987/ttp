@@ -39,6 +39,9 @@ li {
   border-width: 1px;
   border-radius: 5px;
   border-color: black;
+  padding: 30px;
+  font-size: 30px;
+  padding-left: 10px;
 }   
 blockquote, q {
   quotes: none;
