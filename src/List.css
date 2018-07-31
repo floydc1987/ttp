@@ -12,6 +12,7 @@ ul.List li {
 }
 
 ul.List li input[type='checkbox'] {
+  margin: 0 22px 6px 16px;
   transform: scale(2);
   vertical-align: middle;
 }
