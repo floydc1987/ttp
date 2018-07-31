@@ -65,7 +65,6 @@ table {
   font-size: 3.5em;
   text-align: center;
   font-family: 'Muli', sans-serif;
-  padding-bottom: 50px;
   padding-top: 30px;
 }
 
@@ -127,5 +126,4 @@ h1 {
   flex: 1;
   justify-content: center;
   text-align: center;
-
 }
