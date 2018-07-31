@@ -73,7 +73,7 @@ table {
 }
 
 .App-title {
-  font-size: 3.5em;
+  font-size: 4.5em;
   text-align: center;
   font-family: 'Muli', sans-serif;
   padding-top: 30px;
@@ -95,7 +95,6 @@ button:hover {
 }
 .things, #inputText {
   float: center;
-  margin-left: 30px;
   font-family: 'Montserrat', sans-serif;
   font-weight: bold;
   font-size: 30px;
