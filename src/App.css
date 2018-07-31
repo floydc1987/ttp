@@ -99,6 +99,8 @@ button:hover {
   font-weight: bold;
   font-size: 30px;
 }
+button, input {
+  display: inline-block;
 .things {
   padding-top: 50px;
   font-size: 35px;
