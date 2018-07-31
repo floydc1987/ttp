@@ -101,6 +101,7 @@ button:hover {
 }
 button, input {
   display: inline-block;
+}
 .things {
   padding-top: 50px;
   font-size: 35px;
