@@ -1,8 +1,14 @@
 ul {
   text-align: left;
   font-weight: bold;
-  display: inline-block;
+  display: flex;
+  flex-wrap: wrap;
   list-style-type: none;
+}
+
+li {
+  flex-basis: calc(33.33% - 72px);
+  margin: 15px 20px;
 }
 
 .check {
