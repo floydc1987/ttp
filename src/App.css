@@ -94,19 +94,23 @@ height: 43px;
 button:hover {
   box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2), 0 4px 15px 0 rgba(0,0,0,0.19);
 }
-.things, input {
+.Input .things, .Input input {
   float: center;
   font-family: 'Montserrat', sans-serif;
   font-weight: bold;
   font-size: 30px;
 }
-button, input {
+.Input button, .Input input {
   vertical-align: bottom;
    margin-bottom: 10px;
 }
-.things {
+.Input .things {
   padding-top: 50px;
   font-size: 35px;
+}
+
+.Input input {
+  margin-right: 20px;
 }
 
 #root {
