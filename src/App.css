@@ -82,12 +82,12 @@ table {
 button {
 background-color: orange;
 display: inline-block;
-border-radius: 7px;
+border-radius: 2px;
 font-family: 'Montserrat', sans-serif;
 font-weight: bold;
 font-size: 15px;
-width: 20px;
-height: 15px;
+width: 100px;
+height: 45px;
 }
 
 button:hover {
